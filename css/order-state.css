@@ -1,0 +1,169 @@
+
+/*头部搜索栏*/
+.header-tab {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25rem;
+  background-color: #2b3040;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.menu {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.menu-open {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: url(../images/menu-bg.png) 50% no-repeat;
+  background-size: 54%;
+}
+.search {
+  width: 7rem;
+  height: 0.8rem;
+  margin: 0.2rem auto 0;
+  border-radius: 0.1rem;
+  background-color: #fff;
+  position: relative;
+}
+.s-icon {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../images/search-bg.png) 50% no-repeat;
+  background-size: 70%;
+}
+.s-input {
+  position: absolute;
+  width: 6rem;
+  height: 0.7rem;
+  border: 0;
+  right: 0;
+  top: 2px;
+}
+.search-info {
+  padding-right: 0.25rem;
+}
+.trigger {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+/*主体内容*/
+.container {
+  padding-top: 2.5rem;
+}
+.tab {
+  height: 1.25rem;
+  background-color: #e7e7e7;
+  position: fixed;
+  top: 1.25rem;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.tab>li {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+.tab a {
+  display: block;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  font-size: 0.45rem;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+.tab .on {
+  color: #f07511;
+}
+.tab .last {
+  margin: 0;
+}
+.tab-bottom {
+  width: 2.5rem;
+  margin: 0 auto;
+  border-bottom: 3px solid #f07511;
+}
+.hotel-info .info-name {
+  padding-bottom: 0.1rem;
+  font-size: 0.4rem;
+}
+
+/*未派送*/
+
+.tab-header {
+  height: 1.25rem;
+  padding-top: 0.25rem;
+  background-color: #f7f7f7;
+}
+.tab-header .add {
+  display: block;
+  width: 9.375rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.45rem;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 0.1rem;
+  background-color: #f07511;
+}
+.doing>li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-bottom: 0.2rem solid #e7e7e7;
+}
+.item-img {
+  height: 2.5rem;
+  width: 3.2rem;
+}
+.hotel-info {
+  margin-left: 0.5rem;
+}
+.info-det {
+  color: #808080;
+}
+
+/*派送中*/
+.do>li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-bottom: 0.2rem solid #e7e7e7;
+}
+
+/*已派送*/
+.done>li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-bottom: 0.2rem solid #e7e7e7;
+}
+
+/*后退标志*/
+.to-last {
+  position: fixed;
+  bottom: 1rem;
+  left: 0.5rem;
+  z-index: 99;
+  background-color: #808080;
+  border-radius: 50%;
+}
+.back-icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/arrow-l.png) 40% no-repeat;
+  background-size: 45%;
+}

@@ -1,0 +1,209 @@
+.container {
+  padding-top: 1.25rem;
+}
+/*顶部选项*/
+
+.tab {
+  height: 1.25rem;
+  background-color: #e7e7e7;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.tab>li {
+  float: left;
+  width: 24.7%;
+  margin-right: 0.4%;
+  text-align: center;
+}
+.tab a {
+  display: block;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  font-size: 0.4rem;
+  width: 100%;
+  color: #000;
+  background-color: #fff;
+}
+.tab .on {
+  color: #f07511;
+}
+.tab .last {
+  margin: 0;
+}
+.tab-bottom {
+  width: 2rem;
+  margin: 0 auto;
+  border-bottom: 3px solid #f07511;
+}
+
+/*推荐栏目（广告栏）*/
+.msg {
+  height: 1.5rem;
+  line-height: 1.5rem;
+  border-bottom: 0.1rem solid #e2e2e2;
+  position: relative;
+}
+.share {
+  position: absolute;
+  display: block;
+  width: 2.3rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.4rem;
+  right: 0.3rem;
+  top: 0.3rem;
+  background-color: #f07511;
+}
+
+/*基本信息*/
+
+.basic>li {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #eeeeee;
+}
+.basic .inp {
+  width: 72%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.basic .pwd .inp {
+  width: 53%;
+}
+.change {
+  display: inline-block;
+  background-color: #e5e5e5;
+  color: #000;
+  width: 1.6rem;
+  text-align: center;
+  align-items: baseline;
+  height: 1rem;
+  line-height: 1rem;
+  border-radius: 4px;
+}
+
+/*到账卡*/
+
+.card>li {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #eeeeee;
+}
+.card .inp {
+  width: 72%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+
+/*资产明细*/
+
+.remain {
+  width: 9.375rem;
+  height: 1rem;
+  line-height: 1rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+.remain-tit {
+  font-size: 0.4rem;
+}
+.remain p {
+  display: inline-block;
+  color: #999;
+  margin-left: 0.1rem;
+}
+#arrow-r {
+  height: 1rem;
+}
+.money-tit {
+  width: 9.375rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0.2rem auto 0;
+  padding-left: 0.1rem;
+  color: #fff;
+  background-color: #f07511;
+  font-size: 0.47rem;
+}
+.money-msg {
+  width: 9.375rem;
+  margin: 0.2rem auto 0;
+}
+.money-msg td {
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #999;
+  border: 1px solid #eee;
+}
+.money-msg .row-tit td {
+  color: #000;
+}
+
+/*客户管理*/
+
+.cus>li {
+  border-bottom: 0.1rem solid #eee;
+}
+.cus .cus-card {
+  width: 9.375rem;
+  margin: 0.3rem auto;
+}
+.add-card {
+  display: block;
+  width: 9.375rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.45rem;
+  color: #fff;
+  background-color: #f07511;
+  border-radius: 0.1rem;
+}
+.card-msg {
+  width: 9.375rem;
+}
+.card-msg td {
+  width: 50%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  color: #999;
+}
+.card-msg .row-first, .card-msg .row-last {
+  border-bottom: 1px solid #eee;
+}
+
+/*底部按钮*/
+
+.footer {
+  margin-top: 0.5rem;
+}
+.save {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

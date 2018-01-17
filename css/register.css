@@ -1,0 +1,201 @@
+
+/*头部标题栏*/
+.header {
+  height: 2rem;
+  line-height: 2rem;
+  background: #21292b;
+  color: #fff;
+  position: relative;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.header h1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2rem;
+  right: 2rem;
+  text-align: center;
+  font-size: 0.5625rem;
+}
+.header-back {
+  margin-left: 0.3125rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.46875rem;
+}
+.header-back img {
+  height: 0.46875rem;
+  background-size: cover;
+}
+.header .more {
+  width: 0.71875rem;
+  margin-right: 0.3125rem;
+  background: url(../images/more.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+
+/*页面主体内容*/
+
+.main {
+  width: 100%;
+  background: url(../images/register_bg.png) no-repeat;
+  background-size: cover;
+  padding-top: 3.2rem;
+}
+.content {
+  width: 9.375rem;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 0.13125rem;
+  opacity: 0.9;
+  position: relative;
+}
+.content>div {
+  height: 1.1rem;
+  width: 8.25rem;
+  margin: 0.1rem auto 0;
+  font-size: 0.4rem;
+  color: #a0a0a0;
+}
+.content .avatar {
+  position: absolute;
+  height: 3.75rem;
+  width: 9.375rem;
+  top: -2.18rem;
+  text-align: center;
+}
+.avatar img {
+  display: inline-block;
+  height: 3.17rem;
+  width: 3.17rem;
+  border-radius: 50%;
+  border: 2px solid #e26e10;
+}
+.content .switch {
+  margin-top: 0;
+  padding-top: 1.87rem;
+  position: relative;
+  line-height: 1.1rem;
+  border-bottom: 0.02rem solid #e26e10;
+}
+.switch .login {
+  position: absolute;
+  right: 0;
+  top: 1.87rem;
+}
+.switch span, .content a{
+  color: #e77711;
+}
+.switch span {
+  font-weight: 700;
+}
+.switch .switch-bottom {
+  position: absolute;
+  bottom: -0.02rem;
+  width: 1.6rem;
+  border-bottom: 0.04rem solid #e77711;
+}
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  margin-right: 0.5rem;
+}
+.inp {
+  display: inline-block;
+  border: 0;
+  border-bottom: 1px solid #a0a0a0;
+  height: 1.05rem;
+  width: 7.1rem;
+  float: right;
+  font-size: 0.35rem;
+}
+.key {
+  position: relative;
+}
+.key .inp {
+  border: 0;
+}
+.key .key-bottom {
+  position: absolute;
+  bottom: -0.02rem;
+  left: 1.1rem;
+  width: 4.6rem;
+  border-bottom: 0.02rem solid #a0a0a0;
+}
+.key .get-key {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 0.75rem;
+  width: 2.5rem;
+  text-align: center;
+  line-height: 0.7rem;
+  border: 1px solid #e77711;
+  border-radius: 15px;
+}
+.key .get-key:hover, .login a:hover,
+.key .get-key:active, .login a:active, {
+  background-color: #e77711;
+  color: #fff;
+}
+.content .register {
+  display: block;
+  width: 8.25rem;
+  margin: 1rem auto 0;
+  font-size: 0.5rem;
+  line-height: 1.1rem;
+  color: #fff;
+  background-color: #f07511;
+  border: 0;
+  border-radius: 25px;
+}
+
+/*页面交互背景蒙层*/
+
+.overlay, .warn {
+  position: fixed;
+}
+.overlay {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10000;
+}
+.warn {
+  width: 7.8rem;
+  left: 50%;
+  top: 50%;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: -2rem;
+  margin-left: -4.2rem;
+  padding: 0.3rem;
+  text-align: center;
+  z-index: 99999;
+}
+.warn h2 {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.5rem;
+  border-bottom: 1px solid #eee;
+  color: #e77711;
+}
+.warn p {
+  height: 2rem;
+  line-height: 2rem;
+  color: #a0a0a0;
+  font-size: 0.4rem;
+}
+.warn .btn-close {
+  width: 3.4rem;
+  height: 1.3rem;
+  background-color: #e77711;
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  font-size: 0.5rem;
+}

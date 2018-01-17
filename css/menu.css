@@ -1,0 +1,127 @@
+
+.container {
+  padding-bottom: 0.5rem;
+}
+
+/*topBar*/
+.top-bar {
+  height: 1rem;
+  line-height: 1rem;
+  color: #fff;
+  background-color: #f07510;
+  text-align: center;
+  font-size: 0.5rem;
+  border-bottom: 0.1rem solid #eee;
+}
+
+/*点菜信息*/
+.msg {
+  border-top: 1px solid #dcdcdc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.msg-td {
+  width: 50%;
+  height: .8rem;
+  line-height: .8rem;
+  font-size: 0.38rem;
+  text-align: left;
+}
+.msg-tit {
+  margin-right: 0.5rem;
+  margin-left: 1.1rem;
+}
+.msg-td .red {
+  color: #e00;
+}
+.msg-td .amount-serve {
+  margin-right: 0.85rem;
+}
+.change-menu {
+  width: 2.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  color: #fff;
+  background-color: #b3b3b3;
+}
+.save-menu {
+  width: 2.8rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  text-align: center;
+  border-radius: 0.1rem;
+  color: #fff;
+  background-color: #f07510;
+}
+
+/*menu菜单栏*/
+.menu {
+  border-top: 0.1rem solid #eee;
+}
+.menu table {
+  width: 9.375rem;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+.menu tr td {
+  text-align: center;
+}
+.menu tr td:first-child {
+  text-align: left;
+  width: 4rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.menu tr td:last-child {
+  width: 2.3rem;
+}
+.menu .row-head td{
+  font-size: 0.4rem;
+  color: #000;
+}
+.menu td {
+  height: 1rem;
+  line-height: 1rem;
+  color: #808080;
+  font-size: 0.38rem;
+}
+.menu .prices {
+  height: 0.8rem;
+  width: 1.2rem;
+  background-color: #eee;
+  border-radius: 0.2rem;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0.4rem;
+  line-height: 0.8rem;
+}
+.menu .set-num {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.set-num span {
+
+}
+.set-num .minus, .set-num .add {
+  height: 0.8rem;
+  width: 0.8rem;
+  line-height: 0.7rem;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 0.7rem;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.set-num .num {
+  font-size: 0.4rem;
+}

@@ -1,0 +1,50 @@
+
+.invite-item {
+  border-top: 0.2rem solid #eee;
+}
+
+/*注意事项*/
+.msg-item {
+  display: block;
+  padding: 0.4rem 0.3rem;
+}
+.num-org {
+  float: left;
+  height: 0.5rem;
+  width: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.4rem;
+  text-align: center;
+  color: #fff;
+  background-color: #f07511;
+  border-radius: 50%;
+}
+.msg-item .info {
+  float: left;
+  padding-left: 0.3rem;
+  width: 8rem;
+  font-size: 0.4rem;
+  color: #000;
+}
+.msg-det {
+  float: left;
+  color: #999;
+  width: 7rem;
+  font-size: 0.35rem;
+  padding-left: 1.2rem;
+  padding-bottom: 0.8rem;
+}
+
+/*底部按钮*/
+
+.invite {
+  display: block;
+  width: 9.375rem;
+  margin: 0.4rem auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

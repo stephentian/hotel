@@ -1,0 +1,82 @@
+
+.item-msg {
+  border-bottom: 1px solid #dcdcdc;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+}
+.item-msg p {
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  width: 8.5rem;
+  margin: 0 auto;
+  padding-left: 0.5rem;
+}
+.item-msg .item-det, .show-pic .show-tit {
+  border-bottom: 1px solid #eee;
+  font-size: 0.45rem;
+  line-height: 0.8rem;
+  width: 9rem;
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+.show-pic {
+  border-top: 0.2rem solid #eee;
+}
+.show-pic .msg-types {
+  width: 9rem;
+  margin: 0 auto;
+  padding: 0.3rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.show-pic .msg-type {
+  color: #fff;
+  background-color: #b3b3b3;
+  padding: 0.15rem 0.4rem;
+  border-radius: 0.1rem;
+  font-size: 0.4rem;
+}
+.show-pic .msg-type-on {
+  background-color: #f07511;
+}
+
+.show-msg {
+  width: 9rem;
+  height: 5.5rem;
+  margin: 0 auto;
+  position: relative;
+}
+.show-msg .hotel-img {
+  width: 9rem;
+  height: 5.5rem;
+}
+.show-msg .hotel-info {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 9rem;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+  font-size: 0.4rem;
+  opacity: 0.8;
+}
+
+.container-footer {
+  padding-top: 1rem;
+}
+.container-footer .upload {
+  display: block;
+  width: 9rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.45rem;
+  text-align: center;
+  color: #fff;
+  background-color: #f07511;
+  border-radius: 0.2rem;
+}

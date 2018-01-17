@@ -1,0 +1,100 @@
+.container {
+  border-top: 0.1rem solid #dcdcdc;
+}
+
+/*切换栏*/
+.content {
+  height: 4.5rem;
+  line-height: 4.5rem;
+  background-color: #de8135;
+  color: #fff;
+  font-size: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.arrow-last, .arrow-next {
+  width: 0.7rem;
+  background: url('../images/arrow-l.png') 50% no-repeat;
+  background-size: 50%;
+}
+.arrow-next {
+  transform: rotate(180deg);
+}
+
+/*上传信息栏*/
+.msg {
+  border-top: 0.1rem solid #dcdcdc;
+  border-bottom: 0.1rem solid #dcdcdc;
+  padding-bottom: 0.3rem;
+}
+.msg-row {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  margin: 0 auto;
+  text-align: right;
+  border-bottom: 1px solid #dcdcdc;
+}
+.row-first {
+  text-align: left;
+  height: 1rem;
+  line-height: 1rem;
+}
+.row-sec {
+  border-bottom: 0;
+}
+.msg-row .int {
+  width: 70%;
+  border: 0;
+  margin-left: 0.5rem;
+}
+.upload-order {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #f07911;
+  border-radius: 0.2rem;
+  margin-top: 0.2rem;
+}
+
+/*信用卡信息*/
+.card-msg {
+  width: 9.375rem;
+  margin: 0 auto;
+  padding-bottom: 0.3rem;
+}
+.card-tit {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  position: relative;
+}
+#choose-card {
+  position: absolute;
+  width: 3rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  color: #fff;
+  font-size: 0.4rem;
+  background-color: #f07511;
+  border-radius: 0.1rem;
+  border: 0;
+  top: 0.3rem;
+  right: 0;
+}
+.card {
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 0.1rem;
+  font-size: 0.4rem;
+}
+.card td {
+  width: 50%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+}

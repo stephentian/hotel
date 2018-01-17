@@ -1,0 +1,121 @@
+
+/*头部标题栏*/
+
+.header {
+  height: 2rem;
+  line-height: 2rem;
+  background: #21292b;
+  color: #fff;
+  position: relative;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.header h1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2rem;
+  right: 2rem;
+  text-align: center;
+  font-size: 0.5625rem;
+}
+.header-back {
+  margin-left: 0.3125rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.46875rem;
+}
+.header-back img {
+  height: 0.46875rem;
+  background-size: cover;
+}
+.header .more {
+  width: 0.71875rem;
+  margin-right: 0.3125rem;
+  background: url(../images/more.png) no-repeat 50% 50%;
+  background-size: contain;
+}
+
+/*个人系统模块*/
+.content .user {
+  position: relative;
+  height: 6.5125rem;
+  background: url(../images/user_bg.png) no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.user .user-photo {
+  width: 3.3rem;
+  height: 3.3rem;
+  margin: 0 auto;
+  padding-top: 1.7rem;
+}
+.user .user-photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+.user .user-nick {
+  margin: .1rem auto 0;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.tab {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  background-color: #f7f7f7;
+}
+.tab .tab-name {
+  font-size: 0.4rem;
+  margin-left: 0.3125rem;
+}
+.module .item-li {
+  width: 33%;
+  height: 2.8rem;
+  float: left;
+  border-right: 1px solid #a0a0a0;
+  border-bottom: 1px solid #a0a0a0;
+}
+.module .after {
+  border-right: 0px;
+}
+/*.module .li-end {
+  border-bottom: 0;
+}*/
+.item-li .item {
+  display: block;
+  width: 100%;
+  height: auto;
+  color: #000;
+  padding: 0.3rem 0;
+  text-align: center;
+  font-size: 0.4rem;
+}
+
+.item-li .item .icon1 {
+  background: url(../images/hotel.png) no-repeat center;
+}
+.item-li .item .icon2 {
+  background: url(../images/order_add.png) no-repeat center;
+}
+.item-li .item .icon3 {
+  background: url(../images/order_person.png) no-repeat center;
+}
+.item-li .item .icon4 {
+  background: url(../images/order_send.png) no-repeat center;
+}
+.item-li .item .icon5 {
+  background: url(../images/order_mine.png) no-repeat center;
+}
+.item-li .item .icon6 {
+  background: url(../images/order_det.png) no-repeat center;
+}
+.item-li .item .icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.3rem 0;
+  margin: 0 auto;
+  background-size: contain;
+}

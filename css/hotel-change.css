@@ -1,0 +1,213 @@
+
+/*订单资料*/
+.msg {
+  border-top: 0.1rem solid #dcdcdc;
+}
+.msg .msg-item {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #dcdcdc;
+}
+.msg .int {
+  width: 60%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.msg .fee-list {
+  width: 9.375rem;
+  margin: 0.2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fee-list .fee-item {
+  width: 29%;
+  height: 1rem;
+  line-height: 1rem;
+  margin: 0.2rem 0.2rem;
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+  background-color: #b3b3b3;
+  text-align: center;
+  color: #fff;
+}
+.fee-list .fee-item-choose {
+  width: 29%;
+  height: 1rem;
+  line-height: 1rem;
+  margin: 0.2rem 0.2rem;
+  font-size: 0.45rem;
+  border-radius: 0.1rem;
+  background-color: #ee791a;
+  text-align: center;
+  color: #fff;
+}
+
+/*switch开关*/
+.status {
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.5rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dcdcdc;
+}
+.status .status-tit {
+  padding-left: 1.3rem;
+}
+.status .switch {
+  width: 1.2rem;
+  padding-top: 0.5rem;
+}
+.switch #div1 {
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.switch #div3 {
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.switch #div5 {
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.switch #div2 {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+.switch #div4 {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+.switch #div6 {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+.open1 {
+  background-color: #ee791a;
+  border: 1px solid #ee791a;
+}
+.open2 {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border: 0;
+}
+.close1 {
+  background-color: #fff;
+  border: 1px solid #ee791a;
+}
+.close2 {
+  left: 0;
+  top: 0;
+  border: 0;
+  background-color: #ee791a;
+}
+
+/*票额设置*/
+.count {
+  padding-bottom: 0.3rem;
+}
+.count-list {
+  width: 75%;
+}
+.count td {
+  text-align: center;
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.4rem;
+  color: #808080;
+}
+.count .count-tit td {
+  color: #000;
+}
+.count span {
+  vertical-align: middle;
+  display: inline-block;
+  height: 0.7rem;
+  width: 0.7rem;
+  line-height: 0.7rem;
+  text-align: center;
+  font-size: 0.6rem;
+  border: 1px solid #dcdcdc;
+}
+.amount1, .amount2 {
+  width: 1rem;
+  height: 0.7rem;
+  text-align: center;
+  color: #808080;
+  border: 1px solid #dcdcdc;
+}
+
+/*更多设置*/
+.more-msg {
+  border-top: 0.2rem solid #dcdcdc;
+}
+.more-tit {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  text-align: center;
+  border-bottom: 1px solid #dcdcdc;
+}
+.set-item {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #dcdcdc;
+}
+.set-item .int {
+  width: 57%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.more-msg #order .status-tit {
+  padding-left: 0.3rem;
+}
+.more-msg #area .status-tit {
+  padding-left: 1.1rem;
+}
+
+/*底部按钮*/
+
+.footer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.save {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

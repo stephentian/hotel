@@ -1,0 +1,149 @@
+
+/*头部搜索栏*/
+.header-tab {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25rem;
+  background-color: #2b3040;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.menu {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.menu-open {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: url(../images/menu-bg.png) 50% no-repeat;
+  background-size: 54%;
+}
+.search {
+  width: 7rem;
+  height: 0.8rem;
+  margin: 0.2rem auto 0;
+  border-radius: 0.1rem;
+  background-color: #fff;
+  position: relative;
+}
+.s-icon {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../images/search-bg.png) 50% no-repeat;
+  background-size: 70%;
+}
+.s-input {
+  position: absolute;
+  width: 6rem;
+  height: 0.7rem;
+  border: 0;
+  right: 0;
+  top: 2px;
+}
+.search-info {
+  padding-right: 0.25rem;
+}
+.trigger {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+/*主体内容*/
+.container {
+  padding-top: 1.25rem;
+}
+.common {
+  border-bottom: 0.1rem solid #dcdcdc;
+}
+.tit {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+  margin: 0 auto;
+}
+.tit {
+  border-bottom: 1px solid #dcdcdc;;
+  font-size: 0.4rem;
+  font-weight: 800;
+}
+.tit span {
+  display: block;
+  height: 1.4rem;
+}
+.tit-eg {
+  width: 9rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.4rem;
+  margin: 0 auto;
+  padding: 0.3rem 0;
+}
+.tit-eg>div {
+  border: 1px solid #eee;
+  height: 0.6rem;
+  line-height: 0.6rem;
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.1rem;
+}
+.usually .tit-eg .tit-eg-choose {
+  background-color: #f07511;
+  color: #fff;
+}
+
+/*付款类型*/
+.pay-tab {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 0.3rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.pay-tab>li {
+  width: 33.3%;
+  text-align: center;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.45rem;
+}
+.pay-type .pay-tab .on {
+  font-weight: bold;
+  color: #f07511;
+  border-bottom: 2px solid #f07511;
+}
+
+/*已付款*/
+.person-msg {
+  padding: 0.2rem 0.3rem;
+  background-color: #f7f7f7;
+  border-bottom: 0.2rem solid #dcdcdc;
+}
+.person-msg .person-msg-tit {
+  height: 1rem;
+  line-height: 1rem;
+  padding: 0 0.2rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.4rem;
+}
+.person-msg .money-num {
+  color: #f07511;
+}
+.person-msg table {
+  width: 100%;
+}
+.person-msg td {
+  width: 50%;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.4rem;
+  border: 1px solid #dcdcdc;
+}

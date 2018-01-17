@@ -1,0 +1,33 @@
+.msg>li {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #eeeeee;
+}
+.msg .int {
+  width: 72%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+
+/*底部按钮*/
+
+.footer {
+  margin-top: 0.5rem;
+}
+.save {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

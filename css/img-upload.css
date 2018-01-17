@@ -1,0 +1,67 @@
+.container {
+
+}
+.hotel-list {
+  border-top: 0.2rem solid #eee;
+  padding-bottom: 0.2rem;
+}
+.photo {
+  height: 1rem;
+  position: relative;
+}
+.photo span {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.3rem;
+  display: block;
+  width: 1rem;
+  height: 0.8rem;
+  background: url(../images/camera.png) 50% no-repeat;
+  background-size: 80%;
+}
+
+.hotel-msg-tab, .hotel-msg-more {
+  border-bottom: 1px solid #dcdcdc;
+  width: 9rem;
+  margin: 0 auto;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  color: #808080;
+}
+.hotel-msg-tab {
+  padding: 0.4rem 0;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+.hotel-msg-tab span {
+  padding: 0rem 0.4rem;
+  background-color: #b3b3b3;
+  border-radius: 0.1rem;
+}
+.hotel-msg-tab .tab-on {
+  background-color: #f07511;
+}
+
+.hotel-img, .hotel-img img {
+  width: 10rem;
+  height: 5rem;
+}
+
+/*底部保存按钮*/
+.footer {
+  padding-bottom: 2rem;
+  padding-top: 1rem;
+}
+.footer .save {
+  display: block;
+  width: 9rem;
+  margin: 0 auto;
+  font-size: 0.45rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  background-color: #f07511;
+  color: #fff;
+  border-radius: 0.1rem;
+  text-align: center;
+}

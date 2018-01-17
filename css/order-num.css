@@ -1,0 +1,83 @@
+.msg {
+  border-top: 0.1rem solid #dcdcdc;
+}
+.msg .msg-item {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0.2rem auto;
+  font-size: 0.4rem;
+  text-align: right;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.msg .int {
+  width: 72%;
+  margin-left: 0.5rem;
+  border: 0;
+  color: #999;
+}
+
+/*派送按钮*/
+.send-btn {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.send-btn .dispatch {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}
+
+/*派送信息*/
+.info {
+  width: 9.375rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.info-header {
+  height: 1rem;
+  padding-left: 0.2rem;
+  line-height: 1rem;
+  font-size: 0.45rem;
+  position: relative;
+}
+.info .info-state {
+  position: absolute;
+  font-size: 0.4rem;
+  height: 1rem;
+  line-height: 0.5rem;;
+  color: #808080;
+  right: 0;
+  top: 0;
+}
+.info-state span {
+  display: inline-block;
+  vertical-align: top;
+}
+.info-state #arrow-r {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: url(../images/arrow-r.png) no-repeat;
+  background-size: contain;
+}
+.info-item {
+  padding: 0.3rem 0.2rem;
+}
+.info-item .info-date {
+  float: left;
+}
+.info-item .info-det {
+  float: left;
+  width: 7.5rem;
+  padding-left: 0.2rem;
+  color: #808080;
+}

@@ -1,0 +1,80 @@
+
+/*信用卡信息*/
+
+.msg>li {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #eeeeee;
+}
+.msg .int {
+  width: 65%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.msg .status .tit {
+  padding-left: 0.8rem;
+}
+/*switch开关*/
+.msg .status {
+  display: flex;
+  justify-content: space-between;
+}
+.msg .switch {
+  width: 1.2rem;
+  padding-top: 0.5rem;
+}
+.switch #div1 {
+  width: 1rem;
+  height: 0.5rem;
+  border-radius: 1rem;
+  position: relative;
+}
+.switch #div2 {
+  position: absolute;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+}
+.open1 {
+  background-color: #ee791a;
+  border: 1px solid #ee791a;
+}
+.open2 {
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  border: 0;
+}
+.close1 {
+  background-color: #fff;
+  border: 1px solid #ee791a;
+}
+.close2 {
+  left: 0;
+  top: 0;
+  border: 0;
+  background-color: #ee791a;
+}
+
+/*底部按钮*/
+
+.footer {
+  margin-top: 1.5rem;
+}
+.save {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

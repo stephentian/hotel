@@ -1,0 +1,64 @@
+a {
+  background-color: #f07511;
+  color: #fff;
+}
+.container {
+  height: 100%;
+  padding-top: 0.2rem;
+  background-color: #f7f7f7;
+}
+.content {
+  height: 16rem;
+  border-bottom: 1px solid #dddddd;
+  background-color: #fff;
+}
+.amount {
+  width: 9.375rem;
+  margin: 0 auto;
+  padding-top: 0.8rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+.amount span {
+  font-size: 0.45rem;
+}
+.amount p {
+  display: inline-block;
+  color: #999;
+}
+.get {
+  position: absolute;
+  display: block;
+  height: 0.9rem;
+  line-height: 0.9rem;
+  text-align: center;
+  width: 2rem;
+  right: 0;
+  bottom: 0.1rem;
+  font-size: 0.5rem;
+  border-radius: 5px;
+}
+.tit {
+  display: block;
+  width: 9.2rem;
+  height: 1.25rem;
+  padding-left: 0.175rem;
+  margin: 0.5rem auto 0;
+  line-height: 1.25rem;
+  font-size: 0.4rem;
+}
+.info {
+  width: 9.375rem;
+  margin: 0.3rem auto 0;
+}
+.info>div {
+  float: left;
+  width: 33%;
+}
+.num {
+  text-align: center;
+}
+.status {
+  text-align: right;
+}

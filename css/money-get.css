@@ -1,0 +1,38 @@
+.content {
+  width: 9.375rem;
+  margin: 0 auto;
+}
+.content>div {
+  height: 1.4rem;
+  padding: 0 0.2rem 0;
+  line-height: 1.4rem;
+  border-bottom: 1px solid #a0a0a0;
+  font-size: 0.4rem;
+  text-align: right;
+}
+.content>div span {
+  font-size: 0.43rem;
+}
+.content .inp {
+  width: 60%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.content .remain {
+  padding-top: 0.5rem;
+}
+
+.footer {
+  width: 9.375rem;
+  height: 1.3rem;
+  background-color: #ee791a;
+  border-radius: 10px;
+  margin: 2.5rem auto 0;
+  text-align: center;
+  line-height: 1.3rem;
+}
+.footer .get {
+  font-size: 0.55rem;
+  color: #fff;
+}

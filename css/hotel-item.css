@@ -1,0 +1,96 @@
+
+.container {
+  border-top: 0.1rem solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+/*商户照片*/
+.content .hotel-msg {
+  height: 4.5rem;
+  width: 10rem;
+}
+
+/*商户信息*/
+.item-msg {
+  padding-bottom: 0.2rem;
+  border-bottom: 0.2rem solid #eee;
+}
+.item-msg .item-name {
+  width: 9rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.5rem;
+  font-size: 0.45rem;
+  font-weight: bold;
+  position: relative;
+}
+.item-name .msg-sup {
+  position: absolute;
+  top: 0.2rem;
+  right: 0;
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+  padding: 0.1rem 0.4rem;
+  background-color: #f07511;
+  color: #fff;
+  border-radius: 0.2rem;
+  font-weight: 500;
+}
+
+.msg-det, .msg-det-list {
+  width: 9rem;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+}
+.item-msg .msg-det {
+  border-bottom: 0.5px solid #dcdcdc;
+}
+
+/*商户发布人信息*/
+.user-msg-tit, .user-msg-box {
+  width: 9rem;
+  margin: 0 auto;
+}
+.user-msg .user-msg-tit {
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.45rem;
+}
+.user-msg .user-msg-box {
+  display: flex;
+  justify-content: space-between;
+}
+.user-msg-box .user-avatar {
+  width: 2rem;
+  height: 2rem;
+  padding-top: 0.2rem;
+}
+.user-avatar img {
+  width: 2rem;
+}
+.user-msg-box .user-info {
+  width: 6.8rem;
+}
+.user-info p {
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  color: #808080;
+}
+.user-info .user-info-num {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info .user-info-det {
+  line-height: 0.6rem;
+  padding-bottom: 0.3rem;
+}
+.user-info .user-hotel {
+  display: flex;
+  justify-content: space-between;
+}
+.user-info .user-hotel-img {
+  width: 2.2rem;
+  height: 1.5rem;
+}

@@ -1,0 +1,100 @@
+
+/*头部标题栏*/
+.header {
+  height: 2rem;
+  line-height: 2rem;
+  background: #21292b;
+  color: #fff;
+  position: relative;
+  display: flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.header h1 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 2rem;
+  right: 2rem;
+  text-align: center;
+  font-size: 0.5625rem;
+}
+.header-back {
+  margin-left: 0.3125rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.46875rem;
+}
+.header-back img {
+  height: 0.46875rem;
+  background-size: cover;
+}
+.header .register {
+  width: 1rem;
+  margin-right: 0.3125rem;
+  font-size: 0.46875rem;
+}
+
+/*主体内容*/
+
+.content {
+  width: 9.375rem;
+  margin: 0 auto;
+}
+.content>div {
+  height: 1.7rem;
+}
+.user {
+  margin-top: 1.9rem;
+}
+.box {
+  width: 7.8rem;
+  height: 1.65rem;
+  margin: 0 auto;
+  line-height: 1.7rem;
+  border-bottom: 1px solid #a0a0a0;
+}
+.icon {
+  width: 0.5rem;
+  height: 0.5rem;
+  margin-top: 0.6rem;
+  margin-right: 0.5rem;
+}
+.inp {
+  height: 1.2rem;
+  border: 0;
+  font-size: 0.4rem;
+}
+.content .login {
+  margin-top: 1.3rem;
+  height: 1.3rem;
+  background-color: #ee791a;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 1.3rem;
+  color: #fff;
+  font-size: 0.5rem;
+}
+.get {
+  position: relative;
+}
+.get .get-link {
+  text-decoration: underline;
+  color: #666666;
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  font-size: 0.4rem;
+}
+.get .get-link:active {
+  color: #fff;
+  background-color: #ee791a;
+}
+
+/*底部标语*/
+
+.footer {
+  margin-top: 1.7rem;
+  text-align: center;
+  font-size: 0.5rem;
+}

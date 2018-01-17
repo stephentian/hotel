@@ -1,0 +1,38 @@
+/*展开栏*/
+.menu-bar {
+  width: 5rem;
+  height: 100%;
+  background-color: #2c2c2c;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+.moved {
+  transform: translateX(0);
+  transition: transform 0.5s;
+}
+.move-right {
+  transform: translateX(5rem);
+  transition: transform .5s;
+}
+.move-left {
+  transform: translateX(-5rem);
+  transition: transform .5s;
+}
+.menu-item {
+  display: block;
+  text-decoration: none;
+  width: 80%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  font-size: 0.45rem;
+  margin: 0 auto;
+  color: #fff;
+  border-bottom: 1px solid #f07511;
+}
+.menu-icon {
+  height: 0.4rem;
+  width: 0.3rem;
+  margin: 0 0.2rem;
+}

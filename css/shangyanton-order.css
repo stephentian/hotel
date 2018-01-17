@@ -1,0 +1,86 @@
+
+
+/*产品服务*/
+.types {
+  border-top: 0.1rem solid #dcdcdc;
+}
+.types .tit {
+  width: 9.375rem;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  height: 1rem;
+  line-height: 1.1rem;
+}
+.type-list {
+  width: 9.375rem;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  width: 50%;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+}
+.choose {
+  margin-left: 0.5rem;
+  margin-right: 0.3rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  vertical-align: middle;
+}
+.item>span {
+  vertical-align: middle;
+}
+
+/*订单资料*/
+.msg {
+  border-top: 0.1rem solid #dcdcdc;
+}
+.msg .msg-item {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  padding-left: 2px;
+  font-size: 0.4rem;
+  text-align: right;
+  border-bottom: 1px solid #dcdcdc;
+}
+.msg .int {
+  width: 72%;
+  margin-left: 0.4rem;
+  border: 0;
+  color: #999;
+}
+.msg .section .int {
+  display: inline-table;
+  height: 1.4rem;
+  text-align: left;
+}
+.section .options {
+  text-align: left;
+  height: 0.7rem;
+  width: 2.5rem;
+}
+.options .option-item {
+  font-size: 0.4rem;
+}
+
+/*底部按钮*/
+
+.footer {
+  margin-top: 0.5rem;
+}
+.save {
+  display: block;
+  width: 9.375rem;
+  margin: 0 auto;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07511;
+  border-radius: 4px;
+}

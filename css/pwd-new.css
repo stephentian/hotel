@@ -1,0 +1,38 @@
+
+/*页面主体内容*/
+.content {
+  width: 7.8rem;
+  margin: 1.5rem auto 0;
+}
+.content>div {
+  height: 1.7rem;
+  line-height: 2.5rem;
+  border-bottom: 1px solid #a0a0a0;
+}
+.content .icon {
+  width: 0.5rem;
+  height: 0.6rem;
+  margin-top: 0.7rem;
+}
+.content .inp {
+  border: 0;
+  font-size: 0.4rem;
+  margin-left: 0.2rem;
+  height: 0.8rem;
+  width: 88%;
+}
+
+/*页脚登录按钮*/
+.footer {
+  width: 9.375rem;
+  height: 1.3rem;
+  background-color: #ee791a;
+  border-radius: 10px;
+  margin: 1rem auto 0;
+  text-align: center;
+  line-height: 1.3rem;
+}
+.footer .change {
+  font-size: 0.55rem;
+  color: #fff;
+}

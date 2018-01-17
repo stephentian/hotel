@@ -1,0 +1,204 @@
+
+/*头部搜索栏*/
+.header-tab {
+  display: flex;
+  justify-content: space-between;
+  height: 1.25rem;
+  background-color: #2b3040;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+}
+.menu {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+.menu-open {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  background: url(../images/menu-bg.png) 50% no-repeat;
+  background-size: 54%;
+}
+.search {
+  width: 7rem;
+  height: 0.8rem;
+  margin: 0.2rem auto 0;
+  border-radius: 0.1rem;
+  background-color: #fff;
+  position: relative;
+}
+.s-icon {
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  background: url(../images/search-bg.png) 50% no-repeat;
+  background-size: 70%;
+}
+.s-input {
+  position: absolute;
+  width: 6rem;
+  height: 0.7rem;
+  border: 0;
+  right: 0;
+  top: 2px;
+}
+.search-info {
+  padding-right: 0.25rem;
+}
+.trigger {
+  display: block;
+  width: 1.25rem;
+  height: 1.25rem;
+  line-height: 1.25rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+
+/*主体内容*/
+.container {
+  padding-top: 1.25rem;
+  padding-bottom: 2.5rem;
+}
+.common {
+  border-bottom: 0.1rem solid #dcdcdc;
+  padding-bottom: 0.3rem;
+}
+.tit {
+  width: 9.375rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+}
+.tit {
+  border-bottom: 1px solid #dcdcdc;;
+  font-size: 0.4rem;
+  font-weight: 800;
+  position: relative;
+  margin-bottom: 0.2rem;
+}
+.tit span {
+  display: block;
+  height: 1.4rem;
+  border-bottom: 2px solid #f07511;
+}
+.usually .tit span {
+  width: 1.8rem;
+}
+.usually .tit .add-hotel {
+  position: absolute;
+  right: 0;
+  top: 0.3rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  color: #ee791a;
+  border: 1px solid #f07511;
+}
+.hotel-list .tit span {
+  width: 1.8rem;
+}
+.hotel-list .tit .more-list {
+  position: absolute;
+  right: 0;
+  top: 0.3rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+  color: #b3b3b3;
+}
+.hotel-list {
+  width: 9.375rem;
+  margin: 0 auto;
+}
+.usually li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-bottom: 0.2rem solid #fff;
+  background-color: #f7f7f7;
+}
+.hotel-list li {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0.3rem;
+  border-bottom: 0.2rem solid #fff;
+  background-color: #f7f7f7;
+}
+.item-img {
+  height: 2.5rem;
+  width: 3.2rem;
+}
+.hotel-info {
+  margin-left: 0.5rem;
+}
+.info-det {
+  color: #808080;
+}
+.hotel-info .info-name {
+  padding-bottom: 0.1rem;
+  font-size: 0.4rem;
+}
+
+/*返回首页标志*/
+.to-home {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 0.5rem;
+  z-index: 99;
+  background-color: #f07511;
+  border-radius: 50%;
+}
+.back-icon {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  background: url(../images/home-icon.png) 50% no-repeat;
+  background-size: 70%;
+}
+
+/*顶部固定选项*/
+.footer {
+  display: flex;
+  height: 1.4rem;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  flex-wrap: wrap;
+}
+.cell {
+  width: 50%;
+  flex: 1;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  font-size: 0.5rem;
+}
+.issue {
+  background-color: #ffa125;
+}
+.issue .pay-icon {
+  display: inline-block;
+  height: 0.65rem;
+  width: 0.7rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+  background: url(../images/card-add.png) no-repeat;
+  background-size: contain;
+}
+.list-tab {
+  background-color: #f07511;
+}
+.list-tab .pay-icon {
+  display: inline-block;
+  height: 0.7rem;
+  width: 0.55rem;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+  background: url(../images/list-icon.png) no-repeat;
+  background-size: contain;
+}
