@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>订单补充</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/charge.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <span class="arrow-last"></span>
+      <span>补充刷卡单说明</span>
+      <span class="arrow-next"></span>
+    </div>
+    <div class="msg">
+      <ul>
+        <li class="msg-row row-first">
+          <p>上传图片并填写下列信息</p>
+        </li>
+        <li class="msg-row row-sec">
+          <div class="upload-order">上传刷卡单图片</div>
+        </li>
+        <li class="msg-row example">
+          <i class="red">*</i>
+          <span class="msg-tit">刷卡机</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-row">
+          <span class="msg-tit">参考号</span>
+          <input type="text" class="int" placeholder="请输入参考号">
+        </li>
+        <li class="msg-row">
+          <i class="red">*</i>
+          <span class="msg-tit">交易日期</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-row">
+          <span class="msg-tit">交易时间</span>
+          <input type="text" class="int">
+        </li>
+      </ul>
+    </div>
+    <div class="card-msg">
+      <p class="card-tit">
+        信用卡信息
+        <select name="更换信用卡" id="choose-card">
+          <option value="">更换信用卡</option>
+          <option value="">信用卡1</option>
+          <option value="">信用卡2</option>
+          <option value="">信用卡3</option>
+        </select>
+      </p>
+      <table class="card">
+        <tr>
+          <td>广发卡帐号</td>
+          <td>信用卡发卡行</td>
+        </tr>
+        <tr>
+          <td>201609088</td>
+          <td>北京银行</td>
+        </tr>
+        <tr>
+          <td>信用卡卡号</td>
+          <td>默认</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
