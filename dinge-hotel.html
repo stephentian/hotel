@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>酒店发布</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/dinge-hotel.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="msg">
+      <ul>
+        <li class="msg-item example">
+          <span class="tit">订单日期</span>
+          <input type="text" class="int" placeholder="2017/3/24">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">订单总额</span>
+          <input type="text" class="int" placeholder="请输入订单总额">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="status" id="apart">
+          <span class="status-tit">是否可拆分</span>
+          <div class="switch">
+            <div id="div1" class="open1">
+              <div id="div2" class="open2"></div>
+            </div>
+          </div>
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">商户</span>
+          <input type="text" class="int" placeholder="请选择客户（必选）">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="tit">票据发布者</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">票款点数</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <span class="tit">团购发起人点数</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">开票内容</span>
+          <input class="int" readonly>
+        </li>
+        <li class="fee-list">
+          <div class="fee-item">餐费</div>
+          <div class="fee-item">会议费</div>
+          <div class="fee-item">住宿费</div>
+          <div class="fee-item">场租费</div>
+          <div class="fee-item">其他</div>
+        </li>
+      </ul>
+    </div>
+    <div class="count">
+      <table class="count-list">
+        <tr class="count-tit">
+          <td>票额设置</td>
+        </tr>
+        <tr>
+          <td>1元</td>
+          <td>
+            <span class="reduce1">-</span>
+            <input type="text" class="amount1" value="0">
+            <span class="plus1">+</span>
+            张
+          </td>
+        </tr>
+        <tr>
+          <td>10元</td>
+          <td>
+            <span class="reduce2">－</span>
+            <input type="text" class="amount2" value="0">
+            <span class="plus2">+</span>
+            张
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="more-msg">
+      <ul>
+        <li class="more-tit">
+          更多设置
+        </li>
+        <li class="set-item example">
+          <span class="tit">单笔最低金额</span>
+          <input type="text" class="int" placeholder="">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="set-item example">
+          <span class="tit">用餐时间</span>
+          <input type="text" class="int" placeholder="">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="status" id="order">
+          <span class="status-tit">是否开启订单限制</span>
+          <div class="switch">
+            <div id="div3" class="open1">
+              <div id="div4" class="open2"></div>
+            </div>
+          </div>
+        </li>
+        <li class="status" id="area">
+          <span class="status-tit">是否区域共享</span>
+          <div class="switch">
+            <div id="div5" class="open1">
+              <div id="div6" class="open2"></div>
+            </div>
+          </div>
+        </li>
+        <li class="set-item">
+          <span class="tit">共享比例</span>
+          <input type="text" class="int" placeholder="">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#" class="save">发布</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/dinge-hotel.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>添加新酒店</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/hotel-add.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="hotel-top">
+      <div class="msg-item hotel">
+        <span class="hotel-tit">商户名称：</span>
+        <input type="text" class="int" placeholder="时尚假日酒店">
+      </div>
+    </div>
+    <div class="types">
+      <p class="tit"><span>商户地址</span></p>
+      <ul class="add-list">
+        <li class="msg-item example">
+          <span class="item-tit">所在地区</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <span class="item-tit">所在街道</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="item-tit">详细地址</span>
+          <input type="text" class="int">
+        </li>
+      </ul>
+      <p class="tit"><span>商户类型</span></p>
+      <ul class="type-list">
+        <li class="item"><input type="checkbox" class="choose"><span>佣金宝商户</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>定额票商户</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>商宴通商户</span></li>
+      </ul>
+      <ul class="msg-list">
+        <li class="msg-item">
+          <span class="item-tit">开票名称</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="item-tit">商户座机</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <span class="item-tit">纳税人识别号</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <span class="item-tit">包间房</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <span class="item-tit">服务费率</span>
+          <input type="text" class="int">
+        </li>
+      </ul>
+    </div>
+    <div class="msg">
+      <p class="tit"><span>附件上传</span></p>
+      <ul>
+        <li class="file">
+          <span class="file-tit">小票上传</span>
+          <div class="file-choose">点击选择文件</div>
+          <input type="file" class="open-file" style="display:none;">
+        </li>
+        <li class="file">
+          <span class="file-tit">菜单上传</span>
+          <div class="file-choose">点击选择文件</div>
+        </li>
+        <li class="file">
+          <span class="file-tit">发票上传</span>
+          <div class="file-choose">点击选择文件</div>
+        </li>
+        <li class="file">
+          <span class="file-tit">刷卡单上传</span>
+          <div class="file-choose">点击选择文件</div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#" class="save">提交审核</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/hotel-add.js" charset="utf-8"></script>
+</body>
+</html>
