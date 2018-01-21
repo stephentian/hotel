@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>客户管理</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/kehu-data.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="arrow"></div>
+      <span class="sub"></span>
+    </div>
+    <ul class="msg">
+      <li class="name">
+        <i class="red">*</i>
+        <span class="tit">客户姓名</span>
+        <input type="text" class="int" placeholder="请输入您的姓名(必填)">
+      </li>
+      <li class="pinyin">
+        <span class="tit">姓名全拼</span>
+        <input type="text" class="int" placeholder="Liyan">
+      </li>
+      <li class="phone">
+        <span class="tit">联系电话</span>
+        <input type="text" class="int">
+      </li>
+      <li class="city example">
+        <i class="red">*</i>
+        <span class="tit">所在城市</span>
+        <input type="text" class="int" placeholder="广州">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="status">
+        <span class="tit">
+          <i class="red">*</i>
+          <span class="tit">预授权状态</span>
+        </span>
+        <div class="switch">
+          <div id="div1" class="open1">
+            <div id="div2" class="open2"></div>
+          </div>
+        </div>
+      </li>
+      <li class="receiver example">
+        <span class="tit">收账人</span>
+        <input type="text" class="int" placeholder="请输入收款人">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="bank">
+        <i class="red">*</i>
+        <span class="tit">收账行</span>
+        <input type="text" class="int" placeholder="请选择银行">
+      </li>
+      <li class="num example">
+        <i class="red">*</i>
+        <span class="tit">收账卡号</span>
+        <input type="text" class="int">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="introducer">
+        <i class="red">*</i>
+        <span class="tit">介绍人</span>
+        <input type="text" class="int">
+      </li>
+      <li class="company example">
+        <i class="red">*</i>
+        <span class="tit">公司名称</span>
+        <input type="text" class="int" placeholder="找不到公司全称请点我">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="team">
+        <i class="red">*</i>
+        <span class="tit">产品团队</span>
+        <input type="text" class="int" placeholder="默认团队">
+      </li>
+      <li class="address">
+        <i class="red">*</i>
+        <span class="tit">邮寄地址</span>
+        <input type="text" class="int" placeholder="请输入邮寄地址">
+      </li>
+      <li class="data">
+        <span class="tit">信用卡信息</span>
+        <input type="text" class="int" placeholder="">
+      </li>
+    </ul>
+    <ul class="card">
+      <li class="clearfix">
+        <p>卡名全称</p>
+        <div class="car-bank">开户行</div>
+        <div class="card-num">卡号</div>
+        <div class="card-no">厂商卡编号</div>
+        <div class="card-pwd">密码</div>
+      </li>
+      <li class="clearfix">
+        <p>卡名全称</p>
+        <div class="car-bank">开户行</div>
+        <div class="card-num">卡号</div>
+        <div class="card-no">厂商卡编号</div>
+        <div class="card-pwd">密码</div>
+      </li>
+    </ul>
+  </div>
+  <div class="footer">
+    <a href="#" class="save">修改</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/kehu-data.js" charset="utf-8"></script>
+</body>
+</html>
