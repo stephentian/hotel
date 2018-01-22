@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>菜单栏</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <style media="screen">
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  /*头部搜索栏*/
+  .header-tab {
+    display: flex;
+    justify-content: space-between;
+    height: 1.25rem;
+    background-color: #2b3040;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    left: 0;
+  }
+  .menu {
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+  }
+  .menu-open {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    background: url(./images/menu-bg.png) 50% no-repeat;
+    background-size: 54%;
+  }
+  .search {
+    width: 7rem;
+    height: 0.8rem;
+    margin: 0.2rem auto 0;
+    border-radius: 0.1rem;
+    background-color: #fff;
+    position: relative;
+  }
+  .s-icon {
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: url(./images/search-bg.png) 50% no-repeat;
+    background-size: 70%;
+  }
+  .s-input {
+    position: absolute;
+    width: 6rem;
+    height: 0.7rem;
+    border: 0;
+    right: 0;
+    top: 2px;
+  }
+  .search-info {
+    padding-right: 0.25rem;
+  }
+  .trigger {
+    display: block;
+    width: 1.25rem;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+
+  /*展开栏*/
+  .menu-bar {
+    width: 4.5rem;
+    height: 100%;
+    background-color: #2c2c2c;
+    z-index: 100;
+  }
+  .moved {
+    transform: translateX(0);
+    transition: transform 0.5s;
+  }
+  .move-right {
+    transform: translateX(4.5rem);
+    transition: transform .5s;
+  }
+  .move-left {
+    transform: translateX(-4.5rem);
+    transition: transform .5s;
+  }
+  .menu-item {
+    display: block;
+    text-decoration: none;
+    width: 80%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.45rem;
+    margin: 0 auto;
+    color: #fff;
+    border-bottom: 1px solid #f07511;
+  }
+  .menu-icon {
+    height: 0.4rem;
+    width: 0.3rem;
+    margin: 0 0.2rem;
+  }
+  </style>
+</head>
+<body>
+  <div class="header-tab">
+    <div class="menu" id="menu-trigger">
+      <a href="#" class="menu-open"></a>
+    </div>
+    <div class="search">
+      <form action="get">
+        <div class="s-icon"></div>
+        <input type="text" class="s-input" placeholder="搜索酒店名称/地址">
+      </form>
+    </div>
+    <div class="search-info">
+      <a href="#" class="trigger">搜 索</a>
+    </div>
+  </div>
+  <div class="menu-bar move-left" id="menuBar">
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>酒店首页</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>发布酒店</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>订单录入</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>我的订单</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>派送订单</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>商宴通订单</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>商户信息补充</span></a>
+    <a href="#" class="menu-item"><img src="./images/diamond.png" alt="" class="menu-icon"><span>个人中心</span></a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/menu-bar.js" charset="utf-8"></script>
+</body>
+</html>
