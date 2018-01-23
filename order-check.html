@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>订单录入</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/order-check.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="msg">
+      <ul>
+        <li class="msg-item">
+          <span class="tit">订单日期</span>
+          <input type="text" class="int" placeholder="2017/3/24">
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">订单金额</span>
+          <input type="text" class="int" placeholder="请输入订单总额">
+        </li>
+        <li class="msg-item example">
+          <span class="tit">客户姓名</span>
+          <input type="text" class="int" placeholder="请选择客户（必选）">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">公司名称</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="tit">开票内容</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">派送状态</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="tit">订单单号</span>
+          <input type="text" class="int" placeholder="">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="javascript:;" class="pay cell"><span class="pay-icon"></span><span>确认派送</span></a>
+    <a href="#" class="relay cell"><span class="pay-icon"></span><span>查看物流</span></a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>订单查看</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/order-look.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="types">
+      <p class="tit"><span>产品服务</span></p>
+      <ul class="type-list">
+        <li class="item"><input type="checkbox" class="choose"><span>单发票</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>单刷卡</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>小票</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>商宴通支付</span></li>
+      </ul>
+    </div>
+    <div class="msg">
+      <ul>
+        <li class="msg-item">
+          <span class="tit">订单日期</span>
+          <input type="text" class="int" placeholder="2017/3/24">
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">订单金额</span>
+          <input type="text" class="int" placeholder="请输入订单总额">
+        </li>
+        <li class="msg-item example">
+          <span class="tit">商户</span>
+          <input type="text" class="int" placeholder="请选择商户（必选）">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">客户</span>
+          <input type="text" class="int" placeholder="请选择客户（必选）">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="tit">公司名称</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">信用卡</span>
+          <input type="text" class="int" placeholder="请选择信用卡">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">扣款率</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item">
+          <span class="tit">扣款金额</span>
+          <input type="text" class="int">
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">用餐人数</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <span class="tit">用餐时间</span>
+          <input type="text" class="int">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="section msg-item clearfix">
+          <span class="tit">开票内容</span>
+          <div class="int">
+            <select class="options" name="fee">
+              <option value="无" class="option-item">无</option>
+              <option value="餐费" class="option-item">餐费</option>
+              <option value="会议费" class="option-item">会议费</option>
+              <option value="住宿费" class="option-item">住宿费</option>
+              <option value="其他" class="option-item">其他</option>
+            </select>
+          </div>
+        </li>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">票额选择</span>
+          <input type="text" class="int" placeholder="请输入订单备注">
+        </li>
+      </ul>
+    </div>
+    <table class="count">
+      <tbody>
+        <tr class="count-tit">
+          <td>面额</td>
+          <td>剩余张数</td>
+          <td>张数选择</td>
+        </tr>
+        <tr>
+          <td>1元</td>
+          <td>
+            <input type="text" class="remain" readonly> 张
+          </td>
+          <td>
+            <span class="reduce1">-</span>
+            <input type="text" class="amount1" value="0">
+            <span class="plus1">+</span>
+          </td>
+        </tr>
+        <tr>
+          <td>10元</td>
+          <td>
+            <input type="text" class="remain" readonly> 张
+          </td>
+          <td>
+            <span class="reduce2">－</span>
+            <input type="text" class="amount2" value="0">
+            <span class="plus2">+</span>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="remark msg-item">
+      <span class="tit">订单备注</span>
+      <input type="text" class="int" placeholder="请输入订单备注">
+    </div>
+  </div>
+  <div class="footer">
+    <a href="javascript:;" class="pay cell"><span class="pay-icon"></span><span>自己支付</span></a>
+    <a href="#" class="relay cell"><span class="pay-icon"></span><span>转发支付</span></a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/order-look.js" charset="utf-8"></script>
+</body>
+</html>
