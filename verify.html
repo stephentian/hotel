@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>订单录入</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/verify.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <div class="types">
+      <p class="tit"><span>产品服务</span></p>
+      <ul class="type-list">
+        <li class="item"><input type="checkbox" class="choose" checked><span>单发票</span></li>
+        <li class="item"><input type="checkbox" class="choose"><span>单刷卡</span></li>
+        <li class="item"><input type="checkbox" class="choose" checked><span>小票</span></li>
+        <li class="item"><input type="checkbox" class="choose" checked><span>商宴通支付</span></li>
+      </ul>
+    </div>
+    <div class="msg">
+      <ul>
+        <li class="msg-item">
+          <i class="red">*</i>
+          <span class="tit">订单日期</span>
+          <input type="text" class="int" placeholder="2017/3/24">
+        </li>
+        <li class="msg-item">
+          <span class="tit">订单金额</span>
+          <input type="text" class="int" placeholder="请输入订单总额">
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">商户</span>
+          <input type="text" class="int" placeholder="请选择商户">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <span class="tit">票据提供者</span>
+          <input type="text" class="int" placeholder="请选择客户">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item example">
+          <i class="red">*</i>
+          <span class="tit">票款点数</span>
+          <input type="text" class="int" placeholder="6">
+          <div id="arrow-r"></div>
+        </li>
+        <li class="msg-item">
+          <span class="tit">扣款率</span>
+          <input type="text" class="int">
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer">
+    <a href="#" class="save">审核</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <!-- <script src="./js/order-pay.js" charset="utf-8"></script> -->
+</body>
+</html>

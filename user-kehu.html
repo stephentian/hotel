@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个人中心</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/user-kehu.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <ul class="tab">
+      <li>
+        <a href="#" id="basic" class="on">基本信息</a>
+        <div class="tab-bottom" id="tab-a"></div>
+      </li>
+      <li>
+        <a href="#" id="card">信用卡</a>
+        <div class="" id="tab-b"></div>
+      </li>
+      <li>
+        <a href="#" id="receive">到账卡</a>
+        <div class="" id="tab-c"></div>
+      </li>
+      <li class="last">
+        <a href="#" id="his">历史订单</a>
+        <div class="" id="tab-d"></div>
+      </li>
+      <div class="clearfix"></div>
+    </ul>
+    <div class="msg">
+      <a href="#" class="share">推荐给好友</a>
+    </div>
+    <ul class="basic">
+      <li class="name">
+        <i class="red">*</i>
+        <span class="tit">姓名</span>
+        <input type="text" class="inp" placeholder="请输入您的姓名">
+      </li>
+      <li class="pinyin">
+        <span class="tit">全拼</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="city example">
+        <span class="tit">城市</span>
+        <input type="text" class="inp" placeholder="请输入您的所在城市">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="phone">
+        <i class="red">*</i>
+        <span class="tit">联系电话</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="company example">
+        <span class="tit">公司名称</span>
+        <input type="text" class="inp" placeholder="请输入公司名称">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="team example">
+        <span class="tit">产品团队</span>
+        <input type="text" class="inp">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="introducer example">
+        <span class="tit">介绍人</span>
+        <input type="text" class="inp">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="address">
+        <i class="red">*</i>
+        <span class="tit">邮寄地址</span>
+        <input type="text" class="inp" placeholder="请输入您的所在地址">
+      </li>
+      <li class="pwd">
+        <i class="red">*</i>
+        <span class="tit">登录密码</span>
+        <input type="text" class="inp" placeholder="请输入登录密码">
+        <a href="./pwd-new.html" class="change">修改</a>
+      </li>
+    </ul>
+    <ul class="card" style="display: none;">
+      <li class="clearfix">
+        <p>信用卡1</p>
+        <p>卡名全称</p>
+        <div class="car-bank">开户行</div>
+        <div class="card-num">卡号</div>
+        <div class="card-no">厂商卡编号</div>
+        <div class="card-pwd">密码</div>
+      </li>
+      <li class="clearfix">
+        <p>信用卡2</p>
+        <p>卡名全称</p>
+        <div class="car-bank">开户行</div>
+        <div class="card-num">卡号</div>
+        <div class="card-no">厂商卡编号</div>
+        <div class="card-pwd">密码</div>
+      </li>
+      <li class="clearfix">
+        <p>信用卡3</p>
+        <p>卡名全称</p>
+        <div class="car-bank">开户行</div>
+        <div class="card-num">卡号</div>
+        <div class="card-no">厂商卡编号</div>
+        <div class="card-pwd">密码</div>
+      </li>
+    </ul>
+    <ul class="receive" style="display: none;">
+      <li class="receiver">
+        <span class="tit">收账人</span>
+        <input type="text" class="inp" placeholder="请输入收账人姓名">
+      </li>
+      <li class="num">
+        <span class="tit">收账卡号</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="bank example">
+        <span class="tit">收账行</span>
+        <input type="text" class="inp" placeholder="请输入收账行">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="id-card">
+        <span class="tit">身份证号</span>
+        <input type="text" class="inp" placeholder="请输入您的身份证号">
+      </li>
+    </ul>
+    <ul class="his" style="display: none;">
+      <table class="his-msg">
+        <tbody>
+          <tr class="row-tit">
+            <td>订单日期</td>
+            <td>供应商</td>
+            <td>订单金额</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+          <tr>
+            <td>2017/2/2</td>
+            <td>张三</td>
+            <td>899元</td>
+          </tr>
+        </tbody>
+      </table>
+    </ul>
+  </div>
+  <div class="footer">
+    <a href="#" class="save">保存</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/user-kehu.js" charset="utf-8"></script>
+</body>
+</html>

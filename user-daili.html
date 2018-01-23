@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>个人中心</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/common.css">
+  <link rel="stylesheet" href="./css/user-daili.css">
+</head>
+<body>
+  <div class="container">
+    <ul class="tab">
+      <li>
+        <a href="#" id="basic" class="on">基本信息</a>
+        <div class="tab-bottom" id="tab-a"></div>
+      </li>
+      <li>
+        <a href="#" id="card">到账卡</a>
+        <div class="" id="tab-b"></div>
+      </li>
+      <li>
+        <a href="#" id="det">资产明细</a>
+        <div class="" id="tab-c"></div>
+      </li>
+      <li class="last">
+        <a href="#" id="cus">客户管理</a>
+        <div class="" id="tab-d"></div>
+      </li>
+      <div class="clearfix"></div>
+    </ul>
+    <div class="msg">
+      <a href="#" class="share">推荐给好友</a>
+    </div>
+    <ul class="basic">
+      <li class="name">
+        <i class="red">*</i>
+        <span class="tit">姓名</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="pos example">
+        <span class="tit">所属分区</span>
+        <input type="text" class="inp" placeholder="请输入您所在的区域">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="city">
+        <i class="red">*</i>
+        <span class="tit">城市</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="phone">
+        <span class="tit">可下单额度</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="pwd">
+        <i class="red">*</i>
+        <span class="tit">登录密码</span>
+        <input type="password" class="inp" placeholder="请输入登录密码">
+        <a href="./pwd-new.html" class="change">修改</a>
+      </li>
+    </ul>
+    <ul class="card" style="display: none;">
+      <li class="receiver">
+        <i class="red">*</i>
+        <span class="tit">收账人</span>
+        <input type="text" class="inp" placeholder="请输入收账人姓名">
+      </li>
+      <li class="num">
+        <span class="tit">收账卡号</span>
+        <input type="text" class="inp">
+      </li>
+      <li class="bank example">
+        <i class="red">*</i>
+        <span class="tit">收账行</span>
+        <input type="text" class="inp" placeholder="请输入收账行（必填）">
+        <div id="arrow-r"></div>
+      </li>
+      <li class="id-card">
+        <i class="red">*</i>
+        <span class="tit">身份证号</span>
+        <input type="text" class="inp" placeholder="请输入您的身份证号">
+      </li>
+    </ul>
+    <ul class="det" style="display: none;">
+      <div class="remain example">
+        <span class="remain-tit">可提现余额</span>
+        <p>本次最多可转出10000.00万元</p>
+        <div id="arrow-r"></div>
+      </div>
+      <div class="money-tit">佣金明细</div>
+      <table class="money-msg">
+        <tbody>
+          <tr class="row-tit">
+            <td>日期</td>
+            <td>金额</td>
+            <td>代理商佣金</td>
+            <td>团购发起人佣金</td>
+          </tr>
+          <tr>
+            <td>9/6</td>
+            <td>￥999</td>
+            <td>0.054%</td>
+            <td>0.054%</td>
+          </tr>
+          <tr>
+            <td>9/6</td>
+            <td>￥999</td>
+            <td>0.054%</td>
+            <td>0.054%</td>
+          </tr>
+          <tr>
+            <td>9/6</td>
+            <td>￥999</td>
+            <td>0.054%</td>
+            <td>0.054%</td>
+          </tr>
+        </tbody>
+      </table>
+    </ul>
+    <ul class="cus" style="display: none;">
+      <li>
+        <div class="cus-card">
+          <a href="#" class="add-card">+新增录入</a>
+          <table class="card-msg">
+            <tbody>
+              <tr class="row-first">
+                <td>测试</td>
+                <td>15276986935</td>
+              </tr>
+              <tr>
+                <td>信用卡开户行</td>
+                <td>北京银行</td>
+              </tr>
+              <tr class="row-last">
+                <td>信用卡卡号</td>
+                <td>13456989888</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </li>
+      <li>
+        <div class="cus-card">
+          <a href="#" class="add-card">+新增关联卡</a>
+          <table class="card-msg">
+            <tbody>
+              <tr class="row-first">
+                <td>测试</td>
+                <td>15276986935</td>
+              </tr>
+              <tr>
+                <td>信用卡开户行</td>
+                <td>北京银行</td>
+              </tr>
+              <tr class="row-last">
+                <td>信用卡卡号</td>
+                <td>13456989888</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </li>
+      <li>
+        <div class="cus-card">
+          <a href="#" class="add-card">+新增关联卡</a>
+          <table class="card-msg">
+            <tbody>
+              <tr class="row-first">
+                <td>测试</td>
+                <td>15276986935</td>
+              </tr>
+              <tr>
+                <td>信用卡开户行</td>
+                <td>北京银行</td>
+              </tr>
+              <tr class="row-last">
+                <td>信用卡卡号</td>
+                <td>13456989888</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div class="footer" style="display: none;">
+    <a href="#" class="save">保存</a>
+  </div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/user-daili.js" charset="utf-8"></script>
+</body>
+</html>
