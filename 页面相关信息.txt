@@ -1,0 +1,84 @@
+客户注册（4个）：
+	管理系统：			manage.html
+	客户登录页面：			login.html
+	客户注册页：			register.html
+	修改密码：			pwd-lose.html
+
+个人中心（业务员）：
+	个人中心页面（3个）：   	user-yewu.html
+	提现预约页面： 			money-get.html
+	修改密码页面：			pwd-new.html
+	提现明细页面：			money-det.html
+
+个人中心（客户）：
+	个人中心（4个）： 		user-kehu.html
+	修改密码页面： 			pwd-new.html
+	转发邀请用户注册页面：  	share.html
+
+个人中心（代理商）：
+	个人中心页面（4个）：       	user-daili.html
+	客户新增：		    	kehu-add.html
+	客户资料查看修改页面(2个)： 	kehu-data.html
+	确认卡信息：			card-data.html
+	提现明细页面：			money-det.html
+	提现预约页面： 			money-get.html
+	新增关联卡：			card-add.html
+	修改密码页面：			pwd-new.html
+	邀请用户注册页面：		invite.html
+	转发邀请用户注册页面：  	share.html
+
+订单录入:
+	订单录入,导航展开（3个）：	order.html
+	订单支付页面：			order-pay.html
+	定额票商户订单录入：		dinge-order.html
+	商宴通商户订单录入：		shangyanton-order.html4
+	新增录入页面：			order-add.html
+	选择客户：			kehu-find.html
+	选择业务员：			yewu-find.html
+	选择商户：			shanghu-find.html
+	佣金宝商户订单录入：		yongjinbao-order.html
+	转发支付用户：			order-relay.html
+
+订单派送：
+	单号录入页面：			order-check.html
+	单号录入页面2：			order-num.html
+	订单派送首页:			order-state.html
+
+酒店发布（业务员）：
+	定额票商户发布：		dinge-hotel.html
+	酒店发布首页：			hotel-new.html
+	开票明细（票据发布者）:		ticket.html
+	开票详情页：			ticket-det.html
+	商宴通商户发布：		shangyanton-hotel.html
+	添加新酒店:			hotel-add.html
+	我发布的酒店查看页面：		hotel-check.html
+	我发布的酒店列表：		hotel-my.html
+	我发布的酒店修改页面：		hotel-change.html
+	佣金宝商户发布：		yongjinbao-hotel.html
+酒店发布（代理商）:
+	定额票商户发布：		dinge-hotel.html
+	酒店发布首页：			hotel-new.html
+	开票明细页面(票据发布者)：	tichet-pay.html
+	开票明细页面：			ticket-card.html
+	开票详情页：			ticket-det.html
+	商户回款确认页面：		pay-back.html
+	商宴通商户发布：		shangyanton-hotel.html
+	添加新酒店:			hotel-add.html
+	我发布的酒店查看页面：		hotel-check.html
+	我发布的酒店列表：		hotel-my.html
+	我发布的酒店修改页面：		hotel-change.html
+	选择业务员：			yewu-find.html
+	佣金宝商户发布：		yongjinbao-hotel.html
+我的订单：
+	补充刷卡单：			charge.html
+	初单初审页面：			verify.html
+	点菜页：			menu.html
+	订单查看：			order-look.html
+	我的订单首页：			order-my.html
+	制作菜单：			order-sup.html
+商户信息补充：	
+	商户详情页：			hotel-item.html
+	商户详情页1：			hotel-remark.html
+	商户信息补充：			hotel-list.html
+	上传图片：			img-upload.html
+	添加点评页面：			add-rate.html
