@@ -1,0 +1,120 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.status-tit {
+  width: 9.2rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  font-size: 0.45rem;
+  font-weight: bold;
+}
+
+/*身份选择*/
+.status {
+  height: 4.6rem;
+  background: url(../images/my-bg.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.status-item {
+  padding-top: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+.status .sale-item {
+  padding-top: 0.5rem;
+  width: 2.8rem;
+}
+
+.status .doc-img, .mass-img {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.doc-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/doc.png) 47% no-repeat;
+  background-size: 35%;
+}
+.mass-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/mass.png) 50% no-repeat;
+  background-size: 45%;
+}
+
+.sale-img {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.sale-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: url(../images/sales.png) 50% no-repeat;
+  background-size: 40%;
+}
+
+/*备注*/
+.remarks {
+  height: 1.4rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.4rem;
+  color: #666;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+/*身份信息*/
+.msg {
+  background-color: #fff;
+  border-bottom: 1px solid #dcdcdc;
+}
+.msg-item {
+  width: 9.2rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  font-size: 0.4rem;
+  color: #666;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: space-between;
+}
+.msg-item:last-child {
+  border: 0;
+}
+.more-msg {
+  height: 1.4rem;
+  width: 1.4rem;
+  background: url(../images/arrow-r.png) 90% no-repeat;
+  background-size: 20%;
+}
+
+/*底部按钮*/
+.footer {
+  padding-top: 0.5rem;
+}
+.active {
+  display: block;
+  width: 4.5rem;
+  height: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.2rem;
+  text-align: center;
+  background-color: #f07410;
+  border-radius: 0.3rem;
+}

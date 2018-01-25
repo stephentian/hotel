@@ -1,0 +1,78 @@
+body {
+  background-color: #f7f7f7;
+}
+
+/*医生*/
+.wrap {
+  padding-top: 0.2rem;
+  background-color: #f7f7f7;
+  padding-bottom: 0.5rem;
+}
+.wrap-item {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  padding-bottom: 0.2rem;
+}
+.item-tit {
+  width: 9.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0 auto;
+  font-size: 0.45rem;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+.item-tit span {
+  padding-left: 0.3rem;
+  font-size: 0.4rem;
+}
+.item-tit .edit {
+  position: absolute;
+  width: 1.6rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+  font-size: 0.3rem;
+  color: #fff;
+  background-color: #f07410;
+  right: 0;
+  top: 0.2rem;
+  padding: 0;
+  border-radius: 0.5rem;
+}
+
+.user-msg {
+  width: 9rem;
+  height: 0.8rem;
+  line-height: 1rem;
+  margin: 0 auto;
+  padding: 0.1rem;
+  color: #666;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-item .user-msg>span {
+  width: 50%;
+}
+
+/*病人列表*/
+.doc-pat {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.48rem;
+  font-weight: bold;
+  padding-left: 0.4rem;
+}
+.pat-list {
+  margin-bottom: 0.3rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+  padding-bottom: 0.2rem;
+}
+.pat-list .drugs {
+  color: #000;
+}
+.

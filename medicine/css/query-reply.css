@@ -1,0 +1,96 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #f7f7f7;
+}
+.container>section {
+  width: 9.2rem;
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+.container>section:first-child {
+  margin-top: 0;
+}
+
+/*提问*/
+
+.request .msg-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.request .msg-wrap {
+  font-size: 0.4rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  padding: 0 0.3rem;
+  background-color: #9fe659;
+  border-radius: 0.2rem;
+  position: relative;
+}
+.request .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0.2rem solid;
+  border-color: #fff #fff #fff #9fe659;
+  right: -0.4rem;
+  top: 0.4rem;
+}
+.request .avatar {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-left: 0.5rem;
+  background: url(../images/avatar1.png) no-repeat;
+  background-size: contain;
+}
+
+/*回复*/
+.receive .msg-box {
+  display: flex;
+  align-items: flex-start;
+}
+.receive .msg-wrap {
+  padding: 0.2rem 0.3rem;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  font-size: 0.4rem;
+  line-height: 0.6rem;
+  position: relative;
+  border: 1px solid #eee;
+}
+.receive .more {
+  color: #0049a4;
+}
+.receive .arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 0.2rem solid;
+  border-color: #f7f7f7 #fff #f7f7f7 #f7f7f7;
+  left: -0.4rem;
+  top: 0.4rem;
+}
+
+.receive .norm-box {
+  display: inline-block;
+  width: 5rem;
+  vertical-align: top;
+}
+.receive .norm-item {
+  width: 48%;
+  display: inline-block;
+}
+
+
+.receive .avatar {
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 0.5rem;
+  background: url(../images/avatar2.png) no-repeat;
+  background-size: contain;
+}

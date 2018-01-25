@@ -1,0 +1,104 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #f7f7f7;
+}
+.drug-name, .drug-firm,
+.remarks {
+  width: 9rem;
+  padding: 0 0.1rem;
+  margin: 0 auto;
+  text-align: right;
+}
+.item-tit {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.45rem;
+  margin-right: 0.2rem;
+}
+.int {
+  width: 5.6rem;
+  height: 1rem;
+  margin: 0.1rem 0;
+  padding-left: 0.2rem;
+  font-size: 0.4rem;
+  border: 1px solid #dcdcdc;
+}
+.remarks {
+  padding-top: 0.1rem;
+}
+.remarks .item-tit {
+  vertical-align: top;
+}
+.remark-msg {
+  width: 5.6rem;
+  height: 2.5rem;
+  padding-left: 0.2rem;
+  font-size: 0.45rem;
+  border: 1px solid #dcdcdc;
+}
+
+.photo {
+  width: 9rem;
+  padding: 0 0.1rem;
+  margin: 0.2rem auto;
+}
+.photo .item-tit {
+  padding-left: 1rem;
+}
+.photo .img-wrap {
+  width: 2.4rem;
+  height: 1.6rem;
+  vertical-align: middle;
+}
+.photo .add-img {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.2rem;
+  line-height: 1.3rem;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #dcdcdc;
+  border: 1px solid #dcdcdc;
+  vertical-align: middle;
+}
+
+.save-btn {
+  padding-top: 0.2rem;
+}
+.save {
+  display: block;
+  width: 4.5rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07410;
+  border-radius: 0.2rem;
+}
+
+.message {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  margin: 0.5rem auto 0;
+  background-color: #fff;
+  padding-bottom: 0.5rem;
+}
+.message .item-tit {
+  width: 9.2rem;
+  margin: 0 auto;
+}
+.message .message-item {
+  width: 9rem;
+  margin: 0 auto;
+  padding: 0 0.1rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  color: #666;
+}

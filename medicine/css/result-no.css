@@ -1,0 +1,30 @@
+body {
+  background-color: #f7f7f7;
+}
+.container {
+  padding-top: 0.4rem;
+  height: 4rem;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 0.4rem;
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #f7f7f7;
+}
+.result {
+  background-color: #fff;
+}
+
+.footer {
+  padding-top: 1rem;
+}
+.save {
+  display: block;
+  width: 8rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.4rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f07410;
+  border-radius: 0.2rem;
+}

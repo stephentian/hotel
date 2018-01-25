@@ -1,0 +1,147 @@
+body {
+  background-color: #f7f7f7;
+}
+.container {
+  padding-top: 0.3rem;
+}
+
+
+/*药物下单*/
+.drug, .people {
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 0.2rem 0.5rem;
+  background-color: #fff;
+}
+.buy, .num, .control {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+}
+.num .num-tit {
+  display: inline-block;
+  width: 2rem;
+  text-align: center;
+  line-height: 0.5rem;
+  vertical-align: middle;
+}
+.num .num-tip {
+  color: #999;
+}
+.drug select {
+  margin-left: 0.2rem;
+  color: #999;
+  height: 1.2rem;
+  border: 1px solid #dfdfdf;
+}
+.buy .choose-drug {
+  width: 6.5rem;
+}
+.buy .buy-tit {
+  padding-left: 0.45rem;
+}
+.drug .choose-num, .drug .choose-norm {
+  width: 2.5rem;
+}
+.control {
+  padding-left: 1rem;
+}
+.control>span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1rem;
+  height: 1rem;
+  line-height: 0.9rem;
+  background-color:#f07410;
+  color: #fff;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/*身份选择*/
+.people {
+  margin-top: 0.3rem;
+}
+.people-list {
+  height: 1.4rem;
+  line-height: 1.4rem;
+  font-size: 0.4rem;
+}
+.people-list .people-tit {
+  padding-left: 1.2rem;
+}
+.people-list select {
+  width: 6.5rem;
+  margin-left: 0.2rem;
+  color: #999;
+  height: 1.2rem;
+  border: 1px solid #dfdfdf;
+}
+.people .add-list {
+  height: 1rem;
+  line-height: 1rem;
+  padding-left: 2.2rem;
+  color: #666;
+}
+.add-list>div {
+  width: 6.5rem;
+  text-align: center;
+}
+.add-list .add-people {
+  text-decoration: underline;
+  color: #666;
+}
+
+/*底部确定按钮*/
+.footer {
+  padding-top: 0.5rem;
+}
+.save {
+  display: block;
+  width: 4.5rem;
+  height: 1rem;
+  margin: 0 auto;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.4rem;
+  background-color: #f07410;
+  border-radius: 0.2rem;
+}
+
+
+/*下单成功*/
+.new-link {
+  position: fixed;
+  width: 8rem;
+  top: 30%;
+  left: 50%;
+  margin-left: -4rem;
+  background-color: #f9f9f9;
+  border-radius: 0.2rem;
+  padding-top: 0.2rem;
+  z-index: 100;
+}
+.new-link h2 {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.new-tab {
+  border-top: 1px solid #dcdcdc;
+  display: flex;
+}
+.new-tab span {
+  width: 50%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+.new-tab .cancel {
+  color: #666;
+  border-right: 1px solid #dcdcdc;
+}

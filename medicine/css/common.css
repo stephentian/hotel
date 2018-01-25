@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  /*background-color: #fff;*/
+  color: #fff;
+}
+a:active, a:hover {
+  text-decoration: none;
+}
+.red {
+  color: red;
+}
+
+.clearfix {
+  display: block;
+  zoom: 1;
+}
+.clearfix::after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+.clearfix::before {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/*页面交互蒙层*/
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+}

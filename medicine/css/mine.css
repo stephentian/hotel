@@ -1,0 +1,154 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  background-color: #f7f7f7;
+  padding-top: 0.2rem;
+}
+
+/*头部信息*/
+.content-top {
+  padding-left: 0.5rem;
+  height: 4rem;
+  background: url(../images/my-bg.png) no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  height: 2.5rem;
+  width: 2.5rem;
+  background: url(../images/avatar.png) no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+.avatar-msg {
+  padding-left: 0.5rem;
+}
+.my-name {
+  font-size: 0.5rem;
+  color: #fff;
+  font-weight: bold;
+}
+.msg-det {
+  padding-top: 0.5rem;
+  color: #fff;
+  font-size: 0.4rem;
+}
+
+/*中间tab*/
+.content-tab {
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  display: flex;
+  background-color: #fff;
+}
+.content-tab a {
+  width: 50%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  font-size: 0.45rem;
+  text-align: center;
+  color: #000;
+  box-sizing: border-box;
+}
+.content-tab .history {
+  border-right: 1px solid #dcdcdc;
+}
+.his-icon {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  vertical-align: middle;
+  background: url(../images/record.png) no-repeat;
+  background-size: contain;
+}
+.order-icon {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.6rem;
+  vertical-align: middle;
+  background: url(../images/order.png) no-repeat;
+  background-size: contain;
+}
+.has-message {
+  display: inline-block;
+  vertical-align: super;
+  height: 0.2rem;
+  width: 0.2rem;
+  border-radius: 50%;
+  background-color: #ee0000;
+}
+
+/*信息列表*/
+.msg {
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+.msg-item {
+  width: 9.2rem;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  margin: 0 auto;
+  border-bottom: 1px solid #dcdcdc;
+  color: #666;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.msg-item:last-child {
+  border: 0;
+}
+.more-msg {
+  height: 1.4rem;
+  width: 1.4rem;
+  background: url(../images/arrow-r.png) 90% no-repeat;
+  background-size: 20%;
+}
+
+
+/*底部固定按钮*/
+.footer {
+  display: flex;
+  width: 100%;
+  height: 1.4rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #dcdcdc;
+}
+.cell {
+  display: block;
+  width: 50%;
+  height: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  font-size: 0.45rem;
+  color: #000;
+}
+.drug-list {
+  background-color: #eee;
+}
+.my-msg {
+  background-color: #dcdcdc;
+}
+.list {
+  display: inline-block;
+  width: 0.6rem;
+  height: 0.6rem;
+  vertical-align: middle;
+  background: url(../images/drug-list.png) no-repeat;
+  background-size: contain;
+}
+.my-icon {
+  display: inline-block;
+  width: 0.5rem;
+  height: 0.5rem;
+  vertical-align: middle;
+  background: url(../images/my-icon.png) no-repeat;
+  background-size: contain;
+}

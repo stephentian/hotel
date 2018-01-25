@@ -1,0 +1,62 @@
+body {
+  background-color: #f7f7f7;
+}
+.header-btn {
+  height: 1.7rem;
+  padding-top: 0.5rem;
+}
+.add {
+  display: block;
+  width: 4.5rem;
+  height: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 0.45rem;
+  background-color: #f07410;
+  border-radius: 0.2rem;
+}
+
+/*患者列表*/
+.wrap {
+  background-color: #f7f7f7;
+}
+.wrap-item {
+  margin-bottom: 0.3rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  background-color: #fff;
+}
+.item-tit {
+  width: 9.2rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  margin: 0 auto;
+  font-size: 0.45rem;
+  border-bottom: 1px solid #dcdcdc;
+  position: relative;
+}
+.item-tit span {
+  padding-left: 0.3rem;
+  font-size: 0.4rem;
+}
+.item-tit .more-msg {
+  position: absolute;
+  height: 1.2rem;
+  width: 1.2rem;
+  right: 0;
+  top: 0;
+  background: url(../images/arrow-r.png) 85% no-repeat;
+  background-size: 20%;
+}
+.user-msg {
+  width: 9rem;
+  height: 0.8rem;
+  line-height: 1rem;
+  margin: 0 auto;
+  padding: 0.1rem;
+  color: #666;
+  font-size: 0.4rem;
+  display: flex;
+  justify-content: space-between;
+}

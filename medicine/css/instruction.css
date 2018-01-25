@@ -1,0 +1,27 @@
+.container {
+  padding-top: 0.2rem;
+  padding-bottom: 1.5rem;
+  background-color: #f7f7f7;
+}
+
+.container section {
+  width: 9.2rem;
+  margin: 0 auto;
+  padding-top: 0.1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.container .test-data {
+  border: 0;
+}
+
+.msg-tit {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: 0.4rem;
+}
+.msg-item {
+  padding: 0.1rem 0.2rem;
+  line-height: 0.6rem;
+  color: #666;
+}

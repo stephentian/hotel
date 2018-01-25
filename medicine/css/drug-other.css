@@ -1,0 +1,43 @@
+body {
+  background-color: #f7f7f7;
+}
+
+/*药物列表*/
+.container {
+  padding-bottom: 2rem;
+}
+.result {
+  height: 3rem;
+  padding: 0.3rem;
+  font-size: 0.4rem;
+  border-top: 0.2rem solid #f7f7f7;
+  border-bottom: 1px solid #dcdcdc;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+.msg-tit {
+  padding-top: 0.2rem;
+  font-size: 0.4rem;
+  color: #666;
+}
+.msg-main {
+  color: #666;
+  font-size: 0.4rem;
+  width: 5.5rem;
+  position: relative;
+}
+.msg-num {
+  position: absolute;
+  top: 0.2rem;
+  right: 0;
+  font-weight: normal;
+  color: #000;
+}
+.result-img {
+  padding-top: 0.2rem;
+}
+.result-img .img-wrap {
+  width: 3.8rem;
+  height: 2.7rem;
+}

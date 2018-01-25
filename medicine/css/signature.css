@@ -1,0 +1,70 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.container {
+  padding-top: 0.3rem;
+}
+.matter-list {
+  width: 9.2rem;
+  margin: 0 auto;
+  font-size: 0.35rem;
+  color: #666;
+}
+.signer {
+  width: 9.2rem;
+  margin: 0.2rem auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+.signer-box {
+  display: inline-block;
+  height: 0.8rem;
+  width: 6.5rem;
+  margin-left: 0.3rem;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+.int {
+  height: 0.6rem;
+  width: 6.5rem;
+  border: 0;
+}
+.sign-tit {
+  width: 9.2rem;
+  margin: 0 auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+.write-area {
+  width: 9.2rem;
+  height: 4rem;
+  margin: 0 auto;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color: #000;
+}
+
+/*底部按钮*/
+.footer {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #f7f7f7;
+}
+.footer a {
+  display: block;
+  width: 4.5rem;
+  height: 1rem;
+  margin: 0 auto;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.4rem;
+  background-color: #666;
+  border-radius: 0.2rem;
+}
+.footer .save {
+  margin-top: 0.2rem;
+  background-color: #f07410;
+}

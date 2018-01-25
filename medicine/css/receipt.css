@@ -1,0 +1,139 @@
+
+
+.container {
+  padding-top: 0.3rem;
+  background-color: #f7f7f7;
+}
+.matters {
+  width: 9.2rem;
+  margin: 0 auto;
+}
+.matters p {
+  padding: 0.1rem 0;
+  font-size: 0.4rem;
+}
+.matters .name, .drug-name {
+  border-bottom: 1px solid #dcdcdc;
+}
+.name-box {
+  margin-left: 0.3rem;
+  color: #e00;
+}
+.drug-box {
+  margin-left: 1.1rem;
+  color: #e00;
+}
+
+.matters .matter-list {
+  font-size: 0.35rem;
+  color: #666;
+}
+
+.signer {
+  width: 9.2rem;
+  margin: 0.2rem auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+.signer-box {
+  display: inline-block;
+  height: 0.8rem;
+  width: 6.5rem;
+  margin-left: 0.3rem;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+
+/*radio选项栏*/
+.status{
+  width: 9.2rem;
+  margin: 0.3rem auto;
+  color: #666;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.status li {
+  width: 2.2rem;
+  padding: 0.1rem 0;
+}
+.status .list-main {
+  width: 2.5rem;
+}
+.radio-btn {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.phone {
+  width: 9.2rem;
+  margin: 0.2rem auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+.phone-box {
+  display: inline-block;
+  height: 0.8rem;
+  width: 6.9rem;
+  margin-left: 0.3rem;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+}
+.int {
+  height: 0.6rem;
+  width: 100%;
+  border: 0;
+}
+
+.date {
+  width: 9.2rem;
+  margin: 0.2rem auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+  border-bottom: 1px solid #dcdcdc;
+}
+.date-box {
+  margin-left: 0.3rem;
+  color: #e00;
+}
+
+.sign-tit {
+  width: 9.2rem;
+  margin: 0 auto;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  font-size: 0.4rem;
+}
+.write-area {
+  width: 9.2rem;
+  margin: 0 auto;
+  border: 1px solid #dcdcdc;
+  background-color: #fff;
+  color: #000;
+}
+
+/*底部按钮*/
+.footer {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #f7f7f7;
+}
+.footer a {
+  display: block;
+  width: 4.5rem;
+  height: 1rem;
+  margin: 0 auto;
+  line-height: 1rem;
+  text-align: center;
+  font-size: 0.4rem;
+  background-color: #666;
+  border-radius: 0.2rem;
+}
+.footer .save {
+  margin-top: 0.2rem;
+  background-color: #f07410;
+}
