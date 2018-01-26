@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>下单</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/deposit.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <section class="drug">
+      <div class="buy">
+        <span class="buy-tit">购买药物</span>
+        <select name="drugs" id="choose-drug" class="choose-drug">
+          <option value="0" class="drug-item">1、派姆单抗美国版</option>
+          <option value="1" class="drug-item">2、派姆单抗澳洲版</option>
+          <option value="2" class="drug-item">3、派姆单抗印度版</option>
+        </select>
+      </div>
+      <div class="num">
+        <span class="num-tit">
+          数量+规格
+          <span class="num-tip">（选填）</span>
+        </span>
+        <select name="nums" class="choose-num">
+          <option value="0" class="num-item">1、一盒</option>
+          <option value="1" class="num-item">2、两盒</option>
+          <option value="2" class="num-item">3、三盒</option>
+          <option value="3" class="num-item">4、四盒</option>
+          <option value="4" class="num-item">5、五盒</option>
+        </select>
+        <select name="norms" class="choose-norm">
+          <option value="0" class="norm-item">50mg</option>
+          <option value="1" class="norm-item">100mg</option>
+          <option value="2" class="norm-item">150mg</option>
+          <option value="3" class="norm-item">200mg</option>
+        </select>
+      </div>
+      <div class="control">
+        <span class="minus">-</span>
+        <select name="nums" class="choose-num">
+          <option value="0" class="num-item">1、一盒</option>
+          <option value="1" class="num-item">2、两盒</option>
+          <option value="2" class="num-item">3、三盒</option>
+          <option value="3" class="num-item">4、四盒</option>
+          <option value="4" class="num-item">5、五盒</option>
+        </select>
+        <select name="norms" class="choose-norm">
+          <option value="0" class="norm-item">50mg</option>
+          <option value="1" class="norm-item">100mg</option>
+          <option value="2" class="norm-item">150mg</option>
+          <option value="3" class="norm-item">200mg</option>
+        </select>
+        <span class="add">+</span>
+      </div>
+    </section>
+    <section class="people">
+      <ul>
+        <li class="people-list">
+          <span class="people-tit">医生</span>
+          <select name="docs" id="choose-doc" class="choose-doc">
+            <option value="0" class="doc-item">1、彭伟</option>
+            <option value="1" class="doc-item">2、王长江</option>
+            <option value="2" class="doc-item">3、汪建刚</option>
+          </select>
+        </li>
+        <li class="people-list add-list">
+          <div><a href="./add-doc.html" class="add-people">新增医生+</a></div>
+        </li>
+        <li class="people-list">
+          <span class="people-tit">患者</span>
+          <select name="pats" id="choose-pat" class="choose-pat">
+            <option value="0" class="pat-item">1、张三</option>
+            <option value="1" class="pat-item">2、李四</option>
+            <option value="2" class="pat-item">3、朱重八</option>
+          </select>
+        </li>
+        <li class="people-list add-list">
+          <div><a href="./add-pat.html" class="add-people">新增患者+</a></div>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <div class="footer"><a href="javascript:;" class="save">确 定</a></div>
+  <!-- 下单成功 -->
+  <div class="new-link" style="display: none;">
+    <h2>下单成功</h2>
+    <div class="new-tab">
+      <span class="cancel">取消</span>
+      <span class="continue">确定</span>
+    </div>
+  </div>
+  <!-- 全屏灰色蒙层 -->
+  <div class="overlay" style="display:none;"></div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/deposit.js" charset="utf-8"></script>
+</body>
+</html>

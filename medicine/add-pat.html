@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>新增患者</title>
+  <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+  <link rel="stylesheet" href="./css/add-pat.css">
+  <link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+  <div class="container">
+    <section class="patient">
+      <ul>
+        <li class="msg-list">
+          <span class="msg-tit">姓名</span>
+          <input type="text" class="int" placeholder="张三">
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">年龄</span>
+          <input type="text" class="int" placeholder="25">
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">诊断</span>
+          <input type="text" class="int" placeholder="1521515515">
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">城市</span>
+          <input type="text" class="int" placeholder="广东省佛山市">
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">性别</span>
+          <div class="sex-tab">
+            <input type="radio" name="sex" class="male">男
+            <input type="radio" name="sex" class="female">女
+          </div>
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">所住医院</span>
+          <input type="text" class="int" placeholder="xxx">
+        </li>
+        <li class="msg-list">
+          <span class="msg-tit">主治医生</span>
+          <input type="text" class="int" placeholder="李四">
+        </li>
+      </ul>
+    </section>
+    <section class="linkman">
+      <p class="item-tit">联系人信息</p>
+      <ul class="link-list">
+        <li class="list-item list-tit">
+          <span class="item-wrap">姓名</span>
+          <span class="item-wrap">关系</span>
+          <span class="item-wrap">联系电话</span>
+        </li>
+        <li class="list-item">
+          <span class="item-wrap">卡瓦尼</span>
+          <span class="item-wrap">朋友</span>
+          <span class="item-wrap">15215687586</span>
+        </li>
+        <li class="list-item">
+          <span class="item-wrap">张路红</span>
+          <span class="item-wrap">母亲</span>
+          <span class="item-wrap">18549248224</span>
+        </li>
+      </ul>
+      <a href="javascript:;" class="add-link">添加联系人 +</a>
+    </section>
+    <section class="img-msg">
+      <p class="item-tit">添加患者疾病资料</p>
+      <div class="medical">
+        <p class="medical-tit">病历信息：</p>
+        <div class="medical-img">
+          <img src="./images/no-img.png" alt="" class="msg-img">
+          <img src="./images/no-img.png" alt="" class="msg-img">
+          <a href="" class="add-msg">+</a>
+        </div>
+      </div>
+      <div class="medical">
+        <p class="medical-tit">处方单：</p>
+        <div class="medical-img">
+          <img src="./images/no-img.png" alt="" class="msg-img">
+          <a href="" class="add-msg">+</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="footer"><a href="" class="save">确 定</a></div>
+  <!-- 添加联系人 -->
+  <div class="new-link" style="display: none;">
+    <h2>添加联系人</h2>
+    <div class="new-list">
+      <span class="new-tit">联系人姓名</span>
+      <input type="text" class="int" placeholder="联系人姓名">
+    </div>
+    <div class="new-list">
+      <span class="new-tit">关系</span>
+      <input type="text" class="int" placeholder="关系">
+    </div>
+    <div class="new-list">
+      <span class="new-tit">联系人电话</span>
+      <input type="text" class="int" placeholder="联系人电话">
+    </div>
+    <div class="new-tab">
+      <span class="cancel">取消</span>
+      <span class="continue">确定</span>
+    </div>
+  </div>
+  <!-- 全屏灰色蒙层 -->
+  <div class="overlay" style="display:none;"></div>
+  <script src="http://cdn.bootcss.com/jquery/3.0.0/jquery.min.js" charset="utf-8"></script>
+  <script src="./js/add-pat.js" charset="utf-8"></script>
+</body>
+</html>
